@@ -39,6 +39,13 @@
 24	checkout develop
 25	merge feature/Ticket220 into develop (con la opcion de no usar fast-forward aunque sea posible marcada)
 26	merge feature/Ticket221 into develop (con la opcion de no usar fast-forward aunque sea posible marcada)
+28	add bitacora.txt
+	commit "Paso 28"
+29	Nueva tag sobre commit 'Paso 28' llamada Step29
+30	push develop into master (desactivando opcion de subir todos los tags)
+31	checkout feature/Ticket222
+32	merge develop into feature/Ticket222
+
 
 
 
