@@ -10,6 +10,44 @@
 3	add bitacora.txt
 	Commit "cambio nombre y apellidos"
 	push desde master
+9	add bitacora.txt
+	commit "Paso09"
+10	checkout develop
+11	brach feature/Ticket221
+	checkout feature/Ticket221
+15	commit "Paso 15"
+16	checkout feature/Ticket221
+
+
+5	add bitacora.txt
+	commit "Paso05"
+6	branch develop
+7	branch feature/Ticket220
+	checkout feature/Ticket220
+13	stash cambiosPaso12
+	checkout feature/Ticket220
+17	aplico stash cambiosPaso12
+	edito fichero bitacora.txt
+	add bitacora.txt
+18	commit "Paso 18"
+19	checkout develop
+20	branch feature/Ticket222
+21	checkout feature/Ticekt220
+22	la fusión se haría por fast-forwar pues no se ha modificado bitacora.txt desde esa rama y no hay conflictos
+23	add bitacora.txt
+	commit "Paso 23"
+24	checkout develop
+25	merge feature/Ticket220 into develop (con la opcion de no usar fast-forward aunque sea posible marcada)
+26	merge feature/Ticket221 into develop (con la opcion de no usar fast-forward aunque sea posible marcada)
+28	add bitacora.txt
+	commit "Paso 28"
+29	Nueva tag sobre commit 'Paso 28' llamada Step29
+30	push develop into master (desactivando opcion de subir todos los tags)
+31	checkout feature/Ticket222
+32	merge develop into feature/Ticket222
+
+
+
 
 
 	
