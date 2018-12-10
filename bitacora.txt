@@ -10,6 +10,14 @@
 3	add bitacora.txt
 	Commit "cambio nombre y apellidos"
 	push desde master
+9	add bitacora.txt
+	commit "Paso09"
+10	checkout develop
+11	brach feature/Ticket221
+	checkout feature/Ticket221
+15	commit "Paso 15"
+16	checkout feature/Ticket221
+
 
 5	add bitacora.txt
 	commit "Paso05"
