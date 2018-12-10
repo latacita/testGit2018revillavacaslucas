@@ -11,5 +11,23 @@
 	Commit "cambio nombre y apellidos"
 	push desde master
 
+5	add bitacora.txt
+	commit "Paso05"
+6	branch develop
+7	branch feature/Ticket220
+	checkout feature/Ticket220
+13	stash cambiosPaso12
+	checkout feature/Ticket220
+17	aplico stash cambiosPaso12
+	edito fichero bitacora.txt
+	add bitacora.txt
+18	commit "Paso 18"
+19	checkout develop
+20	branch feature/Ticket222
+21	checkout feature/Ticekt220
+22	la fusión se haría por fast-forwar pues no se ha modificado bitacora.txt desde esa rama y no hay conflictos
+
+
+
 
 	
