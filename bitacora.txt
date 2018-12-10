@@ -4,5 +4,12 @@
 %% Alumno (Revilla Vacas, Lucas):                                      %%
 %%==================================================================%%
 
- Paso   Acción                       Notas
-====== ============================ ================================
+ Paso   Acción                       			Notas
+1 	Clone repositorioRemoto en directorio local
+2	edito fichero bitacora.txt
+3	add bitacora.txt
+	Commit "cambio nombre y apellidos"
+	push desde master
+
+
+	
