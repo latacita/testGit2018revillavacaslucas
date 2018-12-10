@@ -45,7 +45,13 @@
 30	push develop into master (desactivando opcion de subir todos los tags)
 31	checkout feature/Ticket222
 32	merge develop into feature/Ticket222
-
+34	add bitacora.txt
+	commit "Paso 34"
+35	checkout develop
+	merge feature/Ticket222 into develop (con la opcion de no usar fast-forward aunque sea posible marcada)
+36	checkout master
+	merge develop into master (con la opcion de no usar fast-forward aunque sea posible marcada)
+37	edito fichero bitacora.txt
 
 
 
