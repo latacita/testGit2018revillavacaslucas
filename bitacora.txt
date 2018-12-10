@@ -16,6 +16,8 @@
 6	branch develop
 7	branch feature/Ticket220
 	checkout feature/Ticket220
+13	stash cambiosPaso12
+	checkout feature/Ticket220
 
 
 	
